@@ -39,7 +39,7 @@ Resources:
       ImageId: !Ref ImageID
       SubnetId: !Ref SubnetID
       SecurityGroupIds:
-        - web_sg
+        - sg-09499fa9677236fc5
       BlockDeviceMappings:
         -
           DeviceName: /dev/sda1
